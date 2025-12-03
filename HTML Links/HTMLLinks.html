@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en-UK">
+    <head>
+        <title> HTML Links  </title>
+    </head>
+    <body>
+        <h1 style = "font-size: 40px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center;"> HTML Links </h1>
+        <hr>
+        <p> Use (a) tag <br> (a href = "link") e.g. link (a) </p>
+        <a href = "https://www.w3schools.com/html/html_links.asp"> W3 Schools HTML Links Tutorial </a>
+        <hr>
+        <h3> Target Attribute </h3>
+        <p> Specifies where to open the linked document </p>
+        <p> The target attribute can have one of the following values:</p>
+        <pre>
+            _self - Default. Opens the linked document in the same frame as it was clicked (this is default)
+            _blank - Opens the linked document in a new window or tab
+            _parent - Opens the linked document in the parent frame
+            _top - Opens the linked document in the full body of the window
+        </pre>
+        <a href ="https://mhs-vic.compass.education/" target = "_blank"> Compass </a>
+        <hr>
+        <h3> Absolute URL's vs Relative URL's</h3>
+        <p><b> Absolute URL's:</b> A url that links to an extrnal website</p>
+        <p><b> Relative URL's:</b> A url that links to a file or page within the same website. It is specified with a relative URL (without the "https://www" part):</p>
+        <h4> Example of Absolute URL </h4>
+        <a href = "https://www.google.com"> Google </a>
+        <h4> Example of Relative URL </h4>
+        <a href = "IMG_4301.asp"> Photo within image </a>
+        <hr>
+        <h3> Using images as links </h3>
+        <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+        </a>
+        <hr>
+        <h3> Email Links </h3>
+        <p> Use the mailto: attribute in the href to create an email link </p>
+        <a href="mailto:example@example.com"> Send Email </a>
+        <hr>
+        <h3> Button Links </h3>
+        <p> To use a link with a button you need javascript code. <br> javascript allows you to specify what happens at certain events such as a click of a button.</p>
+        <button onclick = "document.location = 'FirstHTMLScript.html'">Go to Default </button>
+        <h3> Link Titles </h3>
+        <p> add title attribute to show as tooltip when hovering over the link </p>
+        <a href = "https://www.wikipedia.org" title = "Go to Wikipedia Homepage"> Wikipedia </a>
+        <hr>
+        <h3> More on Absolute and Relative URLs </h3>
+        <P> Full URL to link a web page </P>
+        <a href = "https://www.example.com/folder/page.html"> Example Full URL </a>
+        <p> a link to a page in the html folder in the current website </p>
+        <a href = "html/page.asp"> Example Relative URL </a>
+        <p> Link to a page located in the same folder as the current page: </p>
+        <a href = "page.asp"> Example Same Folder URL </a>
+        <hr>
+        <br>
+    </body>
+</html>
